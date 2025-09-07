@@ -1,0 +1,236 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    align-items: center;
+    background-color: #dfdfdf;
+}
+/* NAV BAR */
+.logo{
+    width: 105px;
+    padding-top: 15px;
+    padding-bottom: 12px;
+    margin-left: 20px;
+    margin-right: 90px;
+}
+.linkNav{
+    text-decoration: none;
+    font-size: 2rem;
+    color: #000000;
+    margin-right: 50px;
+}
+.phone{
+    display: flex;
+    align-items: center;
+    background-color: #d9d9d9;
+    margin-left: 748px;
+    font-size: 1.5rem;
+    border: 1.5px #000000 solid;
+    border-radius: 50px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-inline: 12px;
+}
+.phoneLogo{
+    width: 55px;
+    margin-right: 10px;
+}
+/* HERO SECTION */
+.hero{
+    background: url(../img/hero_image.png) no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+.heroContent{
+    padding-bottom: 70px;
+}
+.heroText1{
+    font-size: 3.3rem;
+}
+.heroText2{
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+.heroButton{
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: #000000;
+    background-color: #D2B900;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-inline: 45px;
+    border-radius: 15px;
+}
+/* LEARN MORE SECTION */
+.learnMore{
+    display: flex;
+    background-color: #000000;
+    align-items: center;
+}
+.learnMore_text{
+    font-size: 1.9rem;
+    color: #ffffff;
+    margin: 90px;
+}
+.learnMore_img{
+    height: 380px;
+    margin-left: 200px;
+}
+/* OFFERS SECTION */
+.offers{
+    background-color: #004169;
+}
+.offersText{
+    color: #ffffff;
+    font-size: 1.4rem;
+    padding-top: 80px;
+    margin-left: 90px;
+    margin-bottom: 100px;
+}
+.offersContender{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.offersCards{
+    background-color: #d9d9d9;
+    border-radius: 15px;
+    margin-bottom: 100px;
+    margin-inline: 75px;
+}
+.offersCards_img{
+    width: 350px;
+}
+.offersCards_content{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+.offersCards_title{
+    color: #001259;
+    margin-bottom: 25px;
+}
+.offersCards_price{
+    color: #001259;
+    margin-bottom: 10px;
+}
+.location{
+    display: flex;
+    align-items: center;
+    font-size: 1.15rem
+}
+.location_img{
+    width: 35px;
+    margin-right: 5px;
+}
+.ship{
+    display: flex;
+    align-items: center;
+    font-size: 1.15rem;
+}
+.ship_img{
+    width: 35px;
+    margin-right: 5px;
+}
+/* COUPLE IMAGE SECTION */
+.coupleBackground{
+    background-color: #014297;
+}
+.coupleImg{
+    width: 100%;
+}
+/* SWIMSUIT SECTION */
+.swimsuit{
+    background-color: #014297;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    color: #ffffff;
+}
+.swimsuitTitle{
+    padding-top: 95px;
+    font-size: 3rem;
+}
+.swimsuitText{
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 60px;
+    padding-bottom: 90px;
+}
+/* FLEET SECTION */
+.fleet{
+    background-color: #004169;
+}
+.fleetTitle{
+    color: #ffffff;
+    font-size: 2.4rem;
+    margin-left: 90px;
+    margin-bottom: 90px;
+    padding-top: 70px;
+}
+.fleetTop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fleetCards{
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    max-width: 550px;
+    margin-inline: 90px;
+}
+.fleetCards_img{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+}
+.fleetCards_text{
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2.6rem;
+}
+.fleetBottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 110px;
+}
+/* BEACH IMAGE SECTION */
+.beachBackground{
+    background-color: #014297;
+}
+.beachImg{
+    width: 100%;
+}
+/* DESTINATIONS SECTION */
+.destinations{
+
+}
+.destinationsTitle{
+
+}
+.destinationsContainer{
+
+}
+.destinationsCards{
+    
+}
