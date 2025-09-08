@@ -69,6 +69,9 @@ nav{
     padding-inline: 45px;
     border-radius: 15px;
 }
+.heroButton:hover{
+    background-color: #F6DF2D;
+}
 /* LEARN MORE SECTION */
 .learnMore{
     display: flex;
@@ -206,6 +209,7 @@ nav{
     font-weight: bold;
     text-align: center;
     font-size: 2.6rem;
+    background: rgba(0, 0, 0, 0.3);
 }
 .fleetBottom{
     display: flex;
@@ -216,21 +220,57 @@ nav{
 }
 /* BEACH IMAGE SECTION */
 .beachBackground{
-    background-color: #014297;
+    background-color: #004169;
 }
 .beachImg{
     width: 100%;
 }
-/* DESTINATIONS SECTION */
+/* DESTINATIONS SECTION */            /* ALGUNS COMANDOS DA DESTINATIONS SECTIONS NÃO FUNCIONARAM ENTÃO REAPROVEITEI OS DA FLEET SECTION */
 .destinations{
-
+    background-color: #004169;
 }
 .destinationsTitle{
-
+    color: #ffffff;
+    font-size: 2.4rem;
+    margin-left: 90px;
+    margin-bottom: 90px;
+    padding-top: 70px;
 }
 .destinationsContainer{
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
 }
-.destinationsCards{
-    
+/* FOOTER SECTION */
+footer{
+    border-top: 2px #000000 solid;
+    background-color: #132F63;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logoFooter{
+    width: 90px;
+    padding-top: 100px;
+    margin-bottom: 70px;
+}
+.textFooter{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+.textFooter:hover{
+    text-decoration: underline;
+}
+.textFooter_span{
+    color: #ffffff;
+    margin-inline: 5px;
+}
+.credits{
+    padding-top: 35px;
+    padding-bottom: 70px;
+    color: #ffffff;
+    font-size: 1.5rem;
 }
